@@ -50,15 +50,15 @@ def blood(m): print(f"  {C.BLOOD}{m}{C.RESET}")
 
 def show_banner():
     print(f"""{C.RED}
-=============================================================
-  xxxxxxx  xxxxxxx  xxxxxx   x        xxxxx  xxxxxxx  xxxxxxx
-  xx   xx  xx       xx   xx  xx      xx   xx xx   xx xx   xx
-  xxxxxx   xxxxx    xxxxxx   xx      xxxxxxx xxxxxx  xxxxxx
-  xx   xx  xx       xx   xx  xx      xx   xx xx   xx xx   xx
-  xx   xx  xxxxxxx  xx   xx  xxxxxxx xx   xx xx   xx xx   xx
-           {C.BLOOD_LIGHT}RED CAT v{VERSION}{C.RED}
+░▒▓███████▓▒░░▒▓████████▓▒░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓██████▓▒░▒▓████████▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓███████▓▒░░▒▓██████▓▒░ ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓████████▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
+░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
+{C.BLOOD_LIGHT}                    v{VERSION} - Sang pour Sang{C.RED}
      {C.BLOOD}DDoS + BruteForce + OSINT + Utilitaires{C.RED}
-=============================================================
 {C.RESET}""")
     print()
 
